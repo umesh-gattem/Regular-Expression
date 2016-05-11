@@ -1,8 +1,6 @@
 package com.regex.example;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 /*Write regex  Match any line which contains given two words.
  * Here is the code in Java not getting the selected word using regex .
  * It simply displays the occurence of the  all word expect selected word its starting index and ending index

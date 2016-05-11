@@ -1,8 +1,6 @@
 package com.regex.example;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 /*Write regex  Match any line which does not contains the two given word.
  * Here is the code in Java not getting the two given words
  * It simply displays the occurence of the  all word expect selected word its starting index and ending index
