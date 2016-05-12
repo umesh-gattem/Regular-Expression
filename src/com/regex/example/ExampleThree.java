@@ -29,12 +29,12 @@ public class ExampleThree {
 		System.out.println("\n========Pattern Split======\n");
 		p = Pattern.compile("\\W");
 		String string="This@is:splited)text?with&non_word#characters";
-		String[] words = p.split(string);
+	//	String[] words = p.split(string);
 		System.out.println("Input is :" +string);
 		System.out.println("Output is: ");
-		for (String s : words) {
-			System.out.println("Split using Pattern.split(): " + s);
-		}
+//		for (String s : words) {
+//			System.out.println("Split using Pattern.split(): " + s);
+//		}
 		// using Matcher.replaceFirst() and replaceAll() methods
 		System.out.println("\n========replaceAll and replaceFirst=========\n");
 		String line1="dog says meow" +" all dogs says meow\n";
